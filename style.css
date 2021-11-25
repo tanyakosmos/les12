@@ -1,0 +1,105 @@
+.mama div {
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.deti1 {
+    position: static;
+}
+.deti2 {
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.deti3 {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.deti4 {
+    position: fixed;
+    left: 300px;
+    top: 10px;
+}
+.deti5 {
+    position: static;
+    left: 50%;
+    top: 10px;
+}
+.deti6, .deti7, .deti8, .deti9, .deti10 {
+    position: static;
+}
+.deti11 {
+    position: sticky;
+    left: 600px;
+    top: 700px;
+}
+.deti12 {
+    position: relative;
+    right: 100px;
+    bottom: 500px;
+}
+.deti13{
+    position: relative;
+    left: 100px;
+    top: 400px;
+}
+.pencil {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 90px;
+    height: 400px;
+    background-color: brown;
+    border-radius: 8px;
+    box-shadow: 1px -35px 60px -20px chocolate;
+}
+.p1 {
+    position: absolute;
+    top: -143px;
+    right: 0;
+    width: 100%;
+    height: 160px;
+    background-color: saddlebrown;
+    clip-path: polygon(50% 0%, 100% 91%, 100% 100%, 0% 100%, 0% 90%);
+
+}
+.w {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.p2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30px;
+    background-color: cornflowerblue;
+    border-radius: 100px 100px 0 0 ;
+}
+.p3 {
+    position: absolute;
+    top: 0;
+    left: 31px;
+    height: 100%;
+    width: 30px;
+    background-color: red;
+    border-radius: 100px 100px 0 0 ;
+}
+.p4 {
+    position: absolute;
+    top: 0;
+    left: 61px;
+    height: 100%;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 100px 100px 0 0 ;
+}
